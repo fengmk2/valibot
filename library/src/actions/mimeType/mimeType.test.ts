@@ -1,4 +1,4 @@
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from '@voidzero-dev/vite-plus/test';
 import type { FileIssue } from '../../schemas/index.ts';
 import { expectActionIssue, expectNoActionIssue } from '../../vitest/index.ts';
 import {

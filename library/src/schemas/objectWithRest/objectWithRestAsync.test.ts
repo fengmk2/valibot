@@ -1,4 +1,4 @@
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from '@voidzero-dev/vite-plus/test';
 import { fallback, fallbackAsync } from '../../methods/index.ts';
 import type { FailureDataset, InferIssue } from '../../types/index.ts';
 import {

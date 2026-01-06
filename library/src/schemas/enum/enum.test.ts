@@ -1,4 +1,4 @@
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from '@voidzero-dev/vite-plus/test';
 import { expectNoSchemaIssue, expectSchemaIssue } from '../../vitest/index.ts';
 import { enum_, type EnumIssue, type EnumSchema } from './enum.ts';
 

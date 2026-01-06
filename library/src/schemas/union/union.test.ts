@@ -1,4 +1,4 @@
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from '@voidzero-dev/vite-plus/test';
 import { email, minLength, url } from '../../actions/index.ts';
 import { pipe } from '../../methods/index.ts';
 import type {

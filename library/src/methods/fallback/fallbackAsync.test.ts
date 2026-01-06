@@ -1,4 +1,4 @@
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from '@voidzero-dev/vite-plus/test';
 import { transformAsync } from '../../actions/index.ts';
 import { boolean, number, union } from '../../schemas/index.ts';
 import { pipeAsync } from '../pipe/index.ts';

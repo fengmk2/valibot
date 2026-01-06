@@ -1,4 +1,4 @@
-import { describe, expectTypeOf, test } from 'vitest';
+import { describe, expectTypeOf, test } from '@voidzero-dev/vite-plus/test';
 import type { InferInput, InferIssue, InferOutput } from '../../types/index.ts';
 import { literal, type LiteralIssue } from '../literal/index.ts';
 import { number, type NumberIssue } from '../number/index.ts';

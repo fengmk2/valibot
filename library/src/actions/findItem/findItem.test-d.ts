@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/consistent-type-definitions */
-import { describe, expectTypeOf, test } from 'vitest';
+import { describe, expectTypeOf, test } from '@voidzero-dev/vite-plus/test';
 import type { InferInput, InferIssue, InferOutput } from '../../types/index.ts';
 import { findItem, type FindItemAction } from './findItem.ts';
 

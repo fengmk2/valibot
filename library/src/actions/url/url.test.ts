@@ -1,4 +1,4 @@
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from '@voidzero-dev/vite-plus/test';
 import type { StringIssue } from '../../schemas/index.ts';
 import { expectActionIssue, expectNoActionIssue } from '../../vitest/index.ts';
 import { url, type UrlAction, type UrlIssue } from './url.ts';

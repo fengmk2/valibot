@@ -1,4 +1,4 @@
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from '@voidzero-dev/vite-plus/test';
 import { transform } from '../../actions/index.ts';
 import { number, object, string } from '../../schemas/index.ts';
 import { fallback, fallbackAsync } from '../fallback/index.ts';
