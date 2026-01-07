@@ -1,4 +1,9 @@
-import { afterEach, describe, expect, test } from '@voidzero-dev/vite-plus/test';
+import {
+  afterEach,
+  describe,
+  expect,
+  test,
+} from '@voidzero-dev/vite-plus/test';
 import {
   decimal,
   type DecimalIssue,
