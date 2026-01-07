@@ -18,4 +18,6 @@ export default defineConfig({
   minify: false,
   dts: true,
   outDir: './dist',
+  // avoid bundling the test library
+  external: ['@voidzero-dev/vite-plus/test'],
 });
