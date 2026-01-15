@@ -7,12 +7,12 @@ settings:
 catalogs:
   default:
     '@voidzero-dev/vite-plus':
-      specifier: latest
-      version: 0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9
+      specifier: 0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb
+      version: 0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb
 
 overrides:
-  vite: npm:@voidzero-dev/vite-plus-core@latest
-  vitest: npm:@voidzero-dev/vite-plus-test@latest
+  vite: npm:@voidzero-dev/vite-plus-core@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb
+  vitest: npm:@voidzero-dev/vite-plus-test@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb
 
 importers:
 
@@ -23,7 +23,7 @@ importers:
         version: 6.0.0(@vue/compiler-sfc@3.5.26)(prettier@3.6.2)
       '@voidzero-dev/vite-plus':
         specifier: 'catalog:'
-        version: 0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9(@arethetypeswrong/core@0.18.2)(@edge-runtime/vm@5.0.0)(@opentelemetry/api@1.9.0)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22(@pnpm/logger@1001.0.1)(@vercel/blob@1.0.2)(vite@7.2.4(@types/node@24.10.1)(jiti@2.6.1)(less@4.5.1)(lightningcss@1.30.2)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(yaml@2.8.1))(vue@3.5.26(typescript@5.9.3)))(@vitest/ui@4.0.16)(esbuild@0.25.12)(happy-dom@20.0.11)(jiti@2.6.1)(jsdom@27.2.0)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)
+        version: 0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb(@arethetypeswrong/core@0.18.2)(@edge-runtime/vm@5.0.0)(@opentelemetry/api@1.9.0)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22(@pnpm/logger@1001.0.1)(@vercel/blob@1.0.2)(vite@7.2.4(@types/node@24.10.1)(jiti@2.6.1)(less@4.5.1)(lightningcss@1.30.2)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(yaml@2.8.1))(vue@3.5.26(typescript@5.9.3)))(@vitest/ui@4.0.16)(esbuild@0.25.12)(happy-dom@20.0.11)(jiti@2.6.1)(jsdom@27.2.0)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)
       prettier:
         specifier: ^3.6.2
         version: 3.6.2
@@ -60,7 +60,7 @@ importers:
         version: 24.10.1
       '@voidzero-dev/vite-plus':
         specifier: 'catalog:'
-        version: 0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9(@arethetypeswrong/core@0.18.2)(@edge-runtime/vm@5.0.0)(@opentelemetry/api@1.9.0)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22(@pnpm/logger@1001.0.1)(@vercel/blob@1.0.2)(vite@7.2.4(@types/node@24.10.1)(jiti@2.6.1)(less@4.5.1)(lightningcss@1.30.2)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(yaml@2.8.1))(vue@3.5.26(typescript@5.9.3)))(@vitest/ui@4.0.16)(esbuild@0.25.12)(happy-dom@20.0.11)(jiti@2.6.1)(jsdom@27.2.0)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)
+        version: 0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb(@arethetypeswrong/core@0.18.2)(@edge-runtime/vm@5.0.0)(@opentelemetry/api@1.9.0)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22(@pnpm/logger@1001.0.1)(@vercel/blob@1.0.2)(vite@7.2.4(@types/node@24.10.1)(jiti@2.6.1)(less@4.5.1)(lightningcss@1.30.2)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(yaml@2.8.1))(vue@3.5.26(typescript@5.9.3)))(@vitest/ui@4.0.16)(esbuild@0.25.12)(happy-dom@20.0.11)(jiti@2.6.1)(jsdom@27.2.0)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
@@ -71,8 +71,8 @@ importers:
         specifier: ^0.24.0
         version: 0.24.0(rollup@4.53.3)(vite@7.2.4(@types/node@24.10.1)(jiti@2.6.1)(less@4.5.1)(lightningcss@1.30.2)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(yaml@2.8.1))
       vitest:
-        specifier: npm:@voidzero-dev/vite-plus-test@latest
-        version: '@voidzero-dev/vite-plus-test@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9(@arethetypeswrong/core@0.18.2)(@edge-runtime/vm@5.0.0)(@opentelemetry/api@1.9.0)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22(@pnpm/logger@1001.0.1)(@vercel/blob@1.0.2)(vite@7.2.4(@types/node@24.10.1)(jiti@2.6.1)(less@4.5.1)(lightningcss@1.30.2)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(yaml@2.8.1))(vue@3.5.26(typescript@5.9.3)))(@vitest/ui@4.0.16)(esbuild@0.25.12)(happy-dom@20.0.11)(jiti@2.6.1)(jsdom@27.2.0)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)'
+        specifier: npm:@voidzero-dev/vite-plus-test@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb
+        version: '@voidzero-dev/vite-plus-test@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb(@arethetypeswrong/core@0.18.2)(@edge-runtime/vm@5.0.0)(@opentelemetry/api@1.9.0)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22(@pnpm/logger@1001.0.1)(@vercel/blob@1.0.2)(vite@7.2.4(@types/node@24.10.1)(jiti@2.6.1)(less@4.5.1)(lightningcss@1.30.2)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(yaml@2.8.1))(vue@3.5.26(typescript@5.9.3)))(@vitest/ui@4.0.16)(esbuild@0.25.12)(happy-dom@20.0.11)(jiti@2.6.1)(jsdom@27.2.0)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)'
       zod:
         specifier: ^3.25.76
         version: 3.25.76
@@ -84,10 +84,10 @@ importers:
         version: 9.39.1
       '@vitest/coverage-v8':
         specifier: ^4.0.13
-        version: 4.0.13(@voidzero-dev/vite-plus-test@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9)
+        version: 4.0.13(@voidzero-dev/vite-plus-test@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb)
       '@voidzero-dev/vite-plus':
         specifier: 'catalog:'
-        version: 0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9(@arethetypeswrong/core@0.18.2)(@edge-runtime/vm@5.0.0)(@opentelemetry/api@1.9.0)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22)(@vitest/ui@4.0.16)(esbuild@0.25.12)(happy-dom@20.0.11)(jiti@2.6.1)(jsdom@27.2.0)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)
+        version: 0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb(@arethetypeswrong/core@0.18.2)(@edge-runtime/vm@5.0.0)(@opentelemetry/api@1.9.0)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22)(@vitest/ui@4.0.16)(esbuild@0.25.12)(happy-dom@20.0.11)(jiti@2.6.1)(jsdom@27.2.0)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)
       eslint:
         specifier: ^9.39.1
         version: 9.39.1(jiti@2.6.1)
@@ -119,11 +119,11 @@ importers:
         specifier: ^8.47.0
         version: 8.47.0(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3)
       vite:
-        specifier: npm:@voidzero-dev/vite-plus-core@latest
-        version: '@voidzero-dev/vite-plus-core@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9(@arethetypeswrong/core@0.18.2)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22)(esbuild@0.25.12)(jiti@2.6.1)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)'
+        specifier: npm:@voidzero-dev/vite-plus-core@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb
+        version: '@voidzero-dev/vite-plus-core@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb(@arethetypeswrong/core@0.18.2)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22)(esbuild@0.25.12)(jiti@2.6.1)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)'
       vitest:
-        specifier: npm:@voidzero-dev/vite-plus-test@latest
-        version: '@voidzero-dev/vite-plus-test@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9(@arethetypeswrong/core@0.18.2)(@edge-runtime/vm@5.0.0)(@opentelemetry/api@1.9.0)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22)(@vitest/ui@4.0.16)(esbuild@0.25.12)(happy-dom@20.0.11)(jiti@2.6.1)(jsdom@27.2.0)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)'
+        specifier: npm:@voidzero-dev/vite-plus-test@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb
+        version: '@voidzero-dev/vite-plus-test@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb(@arethetypeswrong/core@0.18.2)(@edge-runtime/vm@5.0.0)(@opentelemetry/api@1.9.0)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22)(@vitest/ui@4.0.16)(esbuild@0.25.12)(happy-dom@20.0.11)(jiti@2.6.1)(jsdom@27.2.0)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)'
 
   packages/i18n:
     devDependencies:
@@ -150,10 +150,10 @@ importers:
         version: 24.10.1
       '@vitest/coverage-v8':
         specifier: ^4.0.13
-        version: 4.0.13(@voidzero-dev/vite-plus-test@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9)
+        version: 4.0.13(@voidzero-dev/vite-plus-test@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb)
       '@voidzero-dev/vite-plus':
         specifier: 'catalog:'
-        version: 0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9(@arethetypeswrong/core@0.18.2)(@edge-runtime/vm@5.0.0)(@opentelemetry/api@1.9.0)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22)(@vitest/ui@4.0.16)(esbuild@0.25.12)(happy-dom@20.0.11)(jiti@2.6.1)(jsdom@27.2.0)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)
+        version: 0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb(@arethetypeswrong/core@0.18.2)(@edge-runtime/vm@5.0.0)(@opentelemetry/api@1.9.0)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22)(@vitest/ui@4.0.16)(esbuild@0.25.12)(happy-dom@20.0.11)(jiti@2.6.1)(jsdom@27.2.0)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)
       eslint:
         specifier: ^9.39.1
         version: 9.39.1(jiti@2.6.1)
@@ -182,14 +182,14 @@ importers:
         specifier: ^1.2.0
         version: 1.2.0(typescript@5.9.3)
       vite:
-        specifier: npm:@voidzero-dev/vite-plus-core@latest
-        version: '@voidzero-dev/vite-plus-core@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9(@arethetypeswrong/core@0.18.2)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22)(esbuild@0.25.12)(jiti@2.6.1)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)'
+        specifier: npm:@voidzero-dev/vite-plus-core@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb
+        version: '@voidzero-dev/vite-plus-core@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb(@arethetypeswrong/core@0.18.2)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22)(esbuild@0.25.12)(jiti@2.6.1)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)'
       vite-tsconfig-paths:
         specifier: ^5.1.4
-        version: 5.1.4(@voidzero-dev/vite-plus-core@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9)(typescript@5.9.3)
+        version: 5.1.4(@voidzero-dev/vite-plus-core@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb)(typescript@5.9.3)
       vitest:
-        specifier: npm:@voidzero-dev/vite-plus-test@latest
-        version: '@voidzero-dev/vite-plus-test@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9(@arethetypeswrong/core@0.18.2)(@edge-runtime/vm@5.0.0)(@opentelemetry/api@1.9.0)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22)(@vitest/ui@4.0.16)(esbuild@0.25.12)(happy-dom@20.0.11)(jiti@2.6.1)(jsdom@27.2.0)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)'
+        specifier: npm:@voidzero-dev/vite-plus-test@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb
+        version: '@voidzero-dev/vite-plus-test@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb(@arethetypeswrong/core@0.18.2)(@edge-runtime/vm@5.0.0)(@opentelemetry/api@1.9.0)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22)(@vitest/ui@4.0.16)(esbuild@0.25.12)(happy-dom@20.0.11)(jiti@2.6.1)(jsdom@27.2.0)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)'
 
   website:
     dependencies:
@@ -235,7 +235,7 @@ importers:
     devDependencies:
       '@builder.io/qwik':
         specifier: ~1.17.2
-        version: 1.17.2(@voidzero-dev/vite-plus-core@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9)
+        version: 1.17.2(@voidzero-dev/vite-plus-core@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb)
       '@builder.io/qwik-city':
         specifier: ~1.17.2
         version: 1.17.2(@arethetypeswrong/core@0.18.2)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22)(esbuild@0.25.12)(jiti@2.6.1)(less@4.5.1)(publint@0.3.16)(rollup@4.53.3)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)
@@ -247,7 +247,7 @@ importers:
         version: 0.9.0
       '@tailwindcss/vite':
         specifier: ^4.1.17
-        version: 4.1.17(@voidzero-dev/vite-plus-core@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9)
+        version: 4.1.17(@voidzero-dev/vite-plus-core@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb)
       '@types/jscodeshift':
         specifier: 17.3.0
         version: 17.3.0
@@ -259,7 +259,7 @@ importers:
         version: 24.10.1
       '@voidzero-dev/vite-plus':
         specifier: 'catalog:'
-        version: 0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9(@arethetypeswrong/core@0.18.2)(@edge-runtime/vm@5.0.0)(@opentelemetry/api@1.9.0)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22)(@vitest/ui@4.0.16)(esbuild@0.25.12)(happy-dom@20.0.11)(jiti@2.6.1)(jsdom@27.2.0)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)
+        version: 0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb(@arethetypeswrong/core@0.18.2)(@edge-runtime/vm@5.0.0)(@opentelemetry/api@1.9.0)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22)(@vitest/ui@4.0.16)(esbuild@0.25.12)(happy-dom@20.0.11)(jiti@2.6.1)(jsdom@27.2.0)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)
       dotenv:
         specifier: ^17.2.3
         version: 17.2.3
@@ -303,20 +303,20 @@ importers:
         specifier: ^48.10.10
         version: 48.10.10(rollup@4.53.3)(typescript@5.9.3)
       vite:
-        specifier: npm:@voidzero-dev/vite-plus-core@latest
-        version: '@voidzero-dev/vite-plus-core@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9(@arethetypeswrong/core@0.18.2)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22)(esbuild@0.25.12)(jiti@2.6.1)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)'
+        specifier: npm:@voidzero-dev/vite-plus-core@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb
+        version: '@voidzero-dev/vite-plus-core@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb(@arethetypeswrong/core@0.18.2)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22)(esbuild@0.25.12)(jiti@2.6.1)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)'
       vite-imagetools:
         specifier: ^9.0.0
         version: 9.0.0(rollup@4.53.3)
       vite-plugin-node-polyfills:
         specifier: ^0.24.0
-        version: 0.24.0(@voidzero-dev/vite-plus-core@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9)(rollup@4.53.3)
+        version: 0.24.0(@voidzero-dev/vite-plus-core@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb)(rollup@4.53.3)
       vite-plugin-static-copy:
         specifier: ^3.1.4
-        version: 3.1.4(@voidzero-dev/vite-plus-core@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9)
+        version: 3.1.4(@voidzero-dev/vite-plus-core@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb)
       vite-tsconfig-paths:
         specifier: ^5.1.4
-        version: 5.1.4(@voidzero-dev/vite-plus-core@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9)(typescript@5.9.3)
+        version: 5.1.4(@voidzero-dev/vite-plus-core@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb)(typescript@5.9.3)
 
 packages:
 
@@ -1409,16 +1409,16 @@ packages:
     resolution: {integrity: sha512-3giAOQvZiH5F9bMlMiv8+GSPMeqg0dbaeo58/0SlA9sxSqZhnUtxzX9/2FzyhS9sWQf5S0GJE0AKBrFqjpeYcg==}
     engines: {node: '>=8.0.0'}
 
-  '@oxc-project/runtime@0.106.0':
-    resolution: {integrity: sha512-5SW18pzHX3JRVSw07MoTLEB9yZ9/VTr0C/kdMA1202647roYTGs1HP53UHsY5GOQzkExClCqV3eBURl5mHcD2A==}
+  '@oxc-project/runtime@0.108.0':
+    resolution: {integrity: sha512-J1cESY4anMO4i9KtCPmCfQAzAR00Uw4SWsDPFP10CIwDMugkh34UrTKByuYKuPaHy0XAk8LlJiZJq2OLMfbuIQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
 
   '@oxc-project/runtime@0.82.3':
     resolution: {integrity: sha512-LNh5GlJvYHAnMurO+EyA8jJwN1rki7l3PSHuosDh2I7h00T6/u9rCkUjg/SvPmT1CZzvhuW0y+gf7jcqUy/Usg==}
     engines: {node: '>=6.9.0'}
 
-  '@oxc-project/types@0.106.0':
-    resolution: {integrity: sha512-QdsH3rZq480VnOHSHgPYOhjL8O8LBdcnSjM408BpPCCUc0JYYZPG9Gafl9i3OcGk/7137o+gweb4cCv3WAUykg==}
+  '@oxc-project/types@0.108.0':
+    resolution: {integrity: sha512-7lf13b2IA/kZO6xgnIZA88sq3vwrxWk+2vxf6cc+omwYCRTiA5e63Beqf3fz/v8jEviChWWmFYBwzfSeyrsj7Q==}
 
   '@oxc-project/types@0.82.3':
     resolution: {integrity: sha512-6nCUxBnGX0c6qfZW5MaF6/fmu5dHJDMiMPaioKHKs5mi5+8/FHQ7WGjgQIz1zxpmceMYfdIXkOaLYE+ejbuOtA==}
@@ -2472,8 +2472,8 @@ packages:
   '@vitest/utils@4.0.16':
     resolution: {integrity: sha512-h8z9yYhV3e1LEfaQ3zdypIrnAg/9hguReGZoS7Gl0aBG5xgA410zBqECqmaF/+RkTggRsfnzc1XaAHA6bmUufA==}
 
-  '@voidzero-dev/vite-plus-core@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9':
-    resolution: {integrity: sha512-1Wz6noK14b8+lhEjSJCAFAInePI4VopHR1lAM0Pv8EFNQmqBHnsdihMkxRuV+bnLrkz6XWYiyk/bWOcPLK5R+A==, tarball: https://npm.pkg.github.com/download/@voidzero-dev/vite-plus-core/0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9/fd8a85b361277bc9a30e8c9883a3917b55cb54e4}
+  '@voidzero-dev/vite-plus-core@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb':
+    resolution: {integrity: sha512-MWg2yJm570GLAbobrS4pM4+YaK8T+8ZfOIH4uquqZGx5/b4Jzp7VsJ87AVeGS+FccwDVraezFVzL9rhXu31g8w==, tarball: https://npm.pkg.github.com/download/@voidzero-dev/vite-plus-core/0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb/c975582fe62b3622efa19e353386588be3d30b72}
     engines: {node: ^20.19.0 || >=22.12.0}
     peerDependencies:
       '@arethetypeswrong/core': ^0.18.1
@@ -2494,8 +2494,26 @@ packages:
       unplugin-unused: ^0.5.0
       yaml: ^2.4.2
 
-  '@voidzero-dev/vite-plus-test@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9':
-    resolution: {integrity: sha512-Evd9jVafms5Q/p9YBGfTs9Cm0c9+JrI5NVmubdgenBjVxvB2iNqpSXO93bW/KFl1dGHlcOW2Y9P9v2m6Q9sE8g==, tarball: https://npm.pkg.github.com/download/@voidzero-dev/vite-plus-test/0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9/848922820ab70811e8cc96a6e86cf08cd9087e9f}
+  '@voidzero-dev/vite-plus-darwin-arm64@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb':
+    resolution: {integrity: sha512-nfb5n/wrfmNmZTWphNN1TxVmfnmnRLPxH+P1JKTP4HP65WFHo3XCVoMdjVOE4SvxaSkIMmH9xmOdR8o8mviBZA==, tarball: https://npm.pkg.github.com/download/@voidzero-dev/vite-plus-darwin-arm64/0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb/1fe7176f1391b69a07f5255dba61fb44790e14af}
+    engines: {node: ^20.19.0 || >=22.12.0}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@voidzero-dev/vite-plus-linux-arm64-gnu@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb':
+    resolution: {integrity: sha512-NxIVxX5wUeVU+HI8roOzCoXRvGaFj/mtvn7ECk3Wff/+oWw1od0OFwGm7aII+f3QOFRAXO0/6uqMit2NwkAAwA==, tarball: https://npm.pkg.github.com/download/@voidzero-dev/vite-plus-linux-arm64-gnu/0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb/36c8c2945cf426db9135362b7acee1349acbe50d}
+    engines: {node: ^20.19.0 || >=22.12.0}
+    cpu: [arm64]
+    os: [linux]
+
+  '@voidzero-dev/vite-plus-linux-x64-gnu@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb':
+    resolution: {integrity: sha512-WnfRlz/c+yurgjuDmArGW5r0a8X4E5QLD90gN/N04FiWmf1do0huaSiJUvuGKjqt2JxM4/kRtxY3/smHWJJYdA==, tarball: https://npm.pkg.github.com/download/@voidzero-dev/vite-plus-linux-x64-gnu/0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb/eafaff7c9545efd0f4621eaccd1c5a23a3cbc70b}
+    engines: {node: ^20.19.0 || >=22.12.0}
+    cpu: [x64]
+    os: [linux]
+
+  '@voidzero-dev/vite-plus-test@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb':
+    resolution: {integrity: sha512-/0Su5CG9k30jUXe/HxrR0F9s3G9h7OZ1nQg/121hGEWlEXBUqELe/bTT6Mde/aaDkUKiB6/+TS2np5qtjKeo2w==, tarball: https://npm.pkg.github.com/download/@voidzero-dev/vite-plus-test/0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb/02ad71a357e0217dbb57a42960dc94ca97344927}
     engines: {node: ^20.0.0 || ^22.0.0 || >=24.0.0}
     peerDependencies:
       '@edge-runtime/vm': '*'
@@ -2505,8 +2523,14 @@ packages:
       happy-dom: '*'
       jsdom: '*'
 
-  '@voidzero-dev/vite-plus@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9':
-    resolution: {integrity: sha512-eLngx/w1le4OoGyu7d+TbgSVaX9eaFYOkg8GAVqdTgfuKiGG28WfIHsXJIkR3Tjipko05SGDxdN0BxLWpa2cvA==, tarball: https://npm.pkg.github.com/download/@voidzero-dev/vite-plus/0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9/2d3b9442a85e6241d47ecda4903c8fd2022d91dc}
+  '@voidzero-dev/vite-plus-win32-x64-msvc@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb':
+    resolution: {integrity: sha512-g0+GMp+OSkcYMlS4OtOSJjsWuIMjsyLqPr4geFAcb5m9f+L7tNkiJpVcT7VAvcdrem25QvyKsoofM3Iihmn60g==, tarball: https://npm.pkg.github.com/download/@voidzero-dev/vite-plus-win32-x64-msvc/0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb/d94a36c5e1b64cf8589a276c5ac3071740ddeb80}
+    engines: {node: ^20.19.0 || >=22.12.0}
+    cpu: [x64]
+    os: [win32]
+
+  '@voidzero-dev/vite-plus@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb':
+    resolution: {integrity: sha512-4MYE/41JpkzneRP6Y6Z1RuXU8lXh0vTbz1GGdpIWJmFTiD0mICz8AlfwCUCUz2hdGQSmqRUxtr98vARs/BHgYA==, tarball: https://npm.pkg.github.com/download/@voidzero-dev/vite-plus/0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb/e03bae3b88fd7a3b28e1e3563ec05c1967e6d759}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
 
@@ -7233,7 +7257,7 @@ snapshots:
       undici: 7.16.0
       valibot: 1.2.0(typescript@5.9.3)
       vfile: 6.0.3
-      vite: '@voidzero-dev/vite-plus-core@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9(@arethetypeswrong/core@0.18.2)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22)(esbuild@0.25.12)(jiti@2.6.1)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)'
+      vite: '@voidzero-dev/vite-plus-core@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb(@arethetypeswrong/core@0.18.2)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22)(esbuild@0.25.12)(jiti@2.6.1)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)'
       vite-imagetools: 9.0.0(rollup@4.53.3)
       zod: 3.25.48
     transitivePeerDependencies:
@@ -7257,12 +7281,12 @@ snapshots:
       - unplugin-unused
       - yaml
 
-  '@builder.io/qwik@1.17.2(@voidzero-dev/vite-plus-core@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9)':
+  '@builder.io/qwik@1.17.2(@voidzero-dev/vite-plus-core@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb)':
     dependencies:
       csstype: 3.2.3
       launch-editor: 2.12.0
       rollup: 4.53.3
-      vite: '@voidzero-dev/vite-plus-core@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9(@arethetypeswrong/core@0.18.2)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22)(esbuild@0.25.12)(jiti@2.6.1)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)'
+      vite: '@voidzero-dev/vite-plus-core@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb(@arethetypeswrong/core@0.18.2)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22)(esbuild@0.25.12)(jiti@2.6.1)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)'
 
   '@codemod.com/workflow@0.0.31(@types/node@24.10.1)':
     dependencies:
@@ -7891,11 +7915,11 @@ snapshots:
 
   '@opentelemetry/api@1.9.0': {}
 
-  '@oxc-project/runtime@0.106.0': {}
+  '@oxc-project/runtime@0.108.0': {}
 
   '@oxc-project/runtime@0.82.3': {}
 
-  '@oxc-project/types@0.106.0': {}
+  '@oxc-project/types@0.108.0': {}
 
   '@oxc-project/types@0.82.3': {}
 
@@ -8308,12 +8332,12 @@ snapshots:
       '@tailwindcss/oxide-win32-arm64-msvc': 4.1.17
       '@tailwindcss/oxide-win32-x64-msvc': 4.1.17
 
-  '@tailwindcss/vite@4.1.17(@voidzero-dev/vite-plus-core@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9)':
+  '@tailwindcss/vite@4.1.17(@voidzero-dev/vite-plus-core@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb)':
     dependencies:
       '@tailwindcss/node': 4.1.17
       '@tailwindcss/oxide': 4.1.17
       tailwindcss: 4.1.17
-      vite: '@voidzero-dev/vite-plus-core@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9(@arethetypeswrong/core@0.18.2)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22)(esbuild@0.25.12)(jiti@2.6.1)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)'
+      vite: '@voidzero-dev/vite-plus-core@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb(@arethetypeswrong/core@0.18.2)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22)(esbuild@0.25.12)(jiti@2.6.1)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)'
 
   '@tootallnate/once@2.0.0': {}
 
@@ -8852,13 +8876,13 @@ snapshots:
       json-schema-to-ts: 1.6.4
       ts-morph: 12.0.0
 
-  '@vitejs/devtools-kit@0.0.0-alpha.22(@voidzero-dev/vite-plus-core@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9)(ws@8.18.3)':
+  '@vitejs/devtools-kit@0.0.0-alpha.22(@voidzero-dev/vite-plus-core@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb)(ws@8.18.3)':
     dependencies:
       '@vitejs/devtools-rpc': 0.0.0-alpha.22(ws@8.18.3)
       birpc: 4.0.0
       birpc-x: 0.0.6
       immer: 11.1.3
-      vite: '@voidzero-dev/vite-plus-core@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9(@arethetypeswrong/core@0.18.2)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22)(esbuild@0.25.12)(jiti@2.6.1)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)'
+      vite: '@voidzero-dev/vite-plus-core@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb(@arethetypeswrong/core@0.18.2)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22)(esbuild@0.25.12)(jiti@2.6.1)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)'
     transitivePeerDependencies:
       - ws
 
@@ -8879,12 +8903,12 @@ snapshots:
     optionalDependencies:
       ws: 8.18.3
 
-  '@vitejs/devtools-vite@0.0.0-alpha.22(@pnpm/logger@1001.0.1)(@vercel/blob@1.0.2)(@voidzero-dev/vite-plus-core@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9)(vue@3.5.26(typescript@5.9.3))':
+  '@vitejs/devtools-vite@0.0.0-alpha.22(@pnpm/logger@1001.0.1)(@vercel/blob@1.0.2)(@voidzero-dev/vite-plus-core@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb)(vue@3.5.26(typescript@5.9.3))':
     dependencies:
       '@floating-ui/dom': 1.7.4
       '@pnpm/read-project-manifest': 1001.2.3(@pnpm/logger@1001.0.1)
       '@rolldown/debug': 1.0.0-beta.58
-      '@vitejs/devtools-kit': 0.0.0-alpha.22(@voidzero-dev/vite-plus-core@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9)(ws@8.18.3)
+      '@vitejs/devtools-kit': 0.0.0-alpha.22(@voidzero-dev/vite-plus-core@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb)(ws@8.18.3)
       '@vitejs/devtools-rpc': 0.0.0-alpha.22(ws@8.18.3)
       ansis: 4.2.0
       birpc: 4.0.0
@@ -8987,11 +9011,11 @@ snapshots:
       - vite
       - vue
 
-  '@vitejs/devtools@0.0.0-alpha.22(@pnpm/logger@1001.0.1)(@vercel/blob@1.0.2)(@voidzero-dev/vite-plus-core@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9)(vue@3.5.26(typescript@5.9.3))':
+  '@vitejs/devtools@0.0.0-alpha.22(@pnpm/logger@1001.0.1)(@vercel/blob@1.0.2)(@voidzero-dev/vite-plus-core@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb)(vue@3.5.26(typescript@5.9.3))':
     dependencies:
-      '@vitejs/devtools-kit': 0.0.0-alpha.22(@voidzero-dev/vite-plus-core@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9)(ws@8.18.3)
+      '@vitejs/devtools-kit': 0.0.0-alpha.22(@voidzero-dev/vite-plus-core@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb)(ws@8.18.3)
       '@vitejs/devtools-rpc': 0.0.0-alpha.22(ws@8.18.3)
-      '@vitejs/devtools-vite': 0.0.0-alpha.22(@pnpm/logger@1001.0.1)(@vercel/blob@1.0.2)(@voidzero-dev/vite-plus-core@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9)(vue@3.5.26(typescript@5.9.3))
+      '@vitejs/devtools-vite': 0.0.0-alpha.22(@pnpm/logger@1001.0.1)(@vercel/blob@1.0.2)(@voidzero-dev/vite-plus-core@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb)(vue@3.5.26(typescript@5.9.3))
       birpc: 4.0.0
       birpc-x: 0.0.6
       cac: 6.7.14
@@ -9004,7 +9028,7 @@ snapshots:
       perfect-debounce: 2.0.0
       sirv: 3.0.2
       tinyexec: 1.0.2
-      vite: '@voidzero-dev/vite-plus-core@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9(@arethetypeswrong/core@0.18.2)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22)(esbuild@0.25.12)(jiti@2.6.1)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)'
+      vite: '@voidzero-dev/vite-plus-core@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb(@arethetypeswrong/core@0.18.2)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22)(esbuild@0.25.12)(jiti@2.6.1)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)'
       ws: 8.18.3
     transitivePeerDependencies:
       - '@azure/app-configuration'
@@ -9077,7 +9101,7 @@ snapshots:
       - utf-8-validate
       - vue
 
-  '@vitest/coverage-v8@4.0.13(@voidzero-dev/vite-plus-test@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9)':
+  '@vitest/coverage-v8@4.0.13(@voidzero-dev/vite-plus-test@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb)':
     dependencies:
       '@bcoe/v8-coverage': 1.0.2
       '@vitest/utils': 4.0.13
@@ -9090,7 +9114,7 @@ snapshots:
       magicast: 0.5.1
       std-env: 3.10.0
       tinyrainbow: 3.0.3
-      vitest: '@voidzero-dev/vite-plus-test@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9(@arethetypeswrong/core@0.18.2)(@edge-runtime/vm@5.0.0)(@opentelemetry/api@1.9.0)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22)(@vitest/ui@4.0.16)(esbuild@0.25.12)(happy-dom@20.0.11)(jiti@2.6.1)(jsdom@27.2.0)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)'
+      vitest: '@voidzero-dev/vite-plus-test@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb(@arethetypeswrong/core@0.18.2)(@edge-runtime/vm@5.0.0)(@opentelemetry/api@1.9.0)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22)(@vitest/ui@4.0.16)(esbuild@0.25.12)(happy-dom@20.0.11)(jiti@2.6.1)(jsdom@27.2.0)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)'
     transitivePeerDependencies:
       - supports-color
 
@@ -9102,7 +9126,7 @@ snapshots:
     dependencies:
       tinyrainbow: 3.0.3
 
-  '@vitest/ui@4.0.16(@voidzero-dev/vite-plus-test@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9)':
+  '@vitest/ui@4.0.16(@voidzero-dev/vite-plus-test@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb)':
     dependencies:
       '@vitest/utils': 4.0.16
       fflate: 0.8.2
@@ -9111,7 +9135,7 @@ snapshots:
       sirv: 3.0.2
       tinyglobby: 0.2.15
       tinyrainbow: 3.0.3
-      vitest: '@voidzero-dev/vite-plus-test@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9(@arethetypeswrong/core@0.18.2)(@edge-runtime/vm@5.0.0)(@opentelemetry/api@1.9.0)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22(@pnpm/logger@1001.0.1)(@vercel/blob@1.0.2)(vite@7.2.4(@types/node@24.10.1)(jiti@2.6.1)(less@4.5.1)(lightningcss@1.30.2)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(yaml@2.8.1))(vue@3.5.26(typescript@5.9.3)))(@vitest/ui@4.0.16)(esbuild@0.25.12)(happy-dom@20.0.11)(jiti@2.6.1)(jsdom@27.2.0)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)'
+      vitest: '@voidzero-dev/vite-plus-test@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb(@arethetypeswrong/core@0.18.2)(@edge-runtime/vm@5.0.0)(@opentelemetry/api@1.9.0)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22(@pnpm/logger@1001.0.1)(@vercel/blob@1.0.2)(vite@7.2.4(@types/node@24.10.1)(jiti@2.6.1)(less@4.5.1)(lightningcss@1.30.2)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(yaml@2.8.1))(vue@3.5.26(typescript@5.9.3)))(@vitest/ui@4.0.16)(esbuild@0.25.12)(happy-dom@20.0.11)(jiti@2.6.1)(jsdom@27.2.0)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)'
 
   '@vitest/utils@4.0.13':
     dependencies:
@@ -9123,11 +9147,11 @@ snapshots:
       '@vitest/pretty-format': 4.0.16
       tinyrainbow: 3.0.3
 
-  '@voidzero-dev/vite-plus-core@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9(@arethetypeswrong/core@0.18.2)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22(@pnpm/logger@1001.0.1)(@vercel/blob@1.0.2)(vite@7.2.4(@types/node@24.10.1)(jiti@2.6.1)(less@4.5.1)(lightningcss@1.30.2)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(yaml@2.8.1))(vue@3.5.26(typescript@5.9.3)))(esbuild@0.25.12)(jiti@2.6.1)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)':
+  '@voidzero-dev/vite-plus-core@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb(@arethetypeswrong/core@0.18.2)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22(@pnpm/logger@1001.0.1)(@vercel/blob@1.0.2)(vite@7.2.4(@types/node@24.10.1)(jiti@2.6.1)(less@4.5.1)(lightningcss@1.30.2)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(yaml@2.8.1))(vue@3.5.26(typescript@5.9.3)))(esbuild@0.25.12)(jiti@2.6.1)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)':
     dependencies:
       '@arethetypeswrong/core': 0.18.2
-      '@oxc-project/runtime': 0.106.0
-      '@oxc-project/types': 0.106.0
+      '@oxc-project/runtime': 0.108.0
+      '@oxc-project/types': 0.108.0
       '@types/node': 24.10.1
       '@vitejs/devtools': 0.0.0-alpha.22(@pnpm/logger@1001.0.1)(@vercel/blob@1.0.2)(vite@7.2.4(@types/node@24.10.1)(jiti@2.6.1)(less@4.5.1)(lightningcss@1.30.2)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(yaml@2.8.1))(vue@3.5.26(typescript@5.9.3))
       esbuild: 0.25.12
@@ -9149,13 +9173,13 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  '@voidzero-dev/vite-plus-core@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9(@arethetypeswrong/core@0.18.2)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22)(esbuild@0.25.12)(jiti@2.6.1)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)':
+  '@voidzero-dev/vite-plus-core@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb(@arethetypeswrong/core@0.18.2)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22)(esbuild@0.25.12)(jiti@2.6.1)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)':
     dependencies:
       '@arethetypeswrong/core': 0.18.2
-      '@oxc-project/runtime': 0.106.0
-      '@oxc-project/types': 0.106.0
+      '@oxc-project/runtime': 0.108.0
+      '@oxc-project/types': 0.108.0
       '@types/node': 24.10.1
-      '@vitejs/devtools': 0.0.0-alpha.22(@pnpm/logger@1001.0.1)(@vercel/blob@1.0.2)(@voidzero-dev/vite-plus-core@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9)(vue@3.5.26(typescript@5.9.3))
+      '@vitejs/devtools': 0.0.0-alpha.22(@pnpm/logger@1001.0.1)(@vercel/blob@1.0.2)(@voidzero-dev/vite-plus-core@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb)(vue@3.5.26(typescript@5.9.3))
       esbuild: 0.25.12
       jiti: 2.6.1
       less: 4.5.1
@@ -9175,19 +9199,27 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  '@voidzero-dev/vite-plus-test@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9(@arethetypeswrong/core@0.18.2)(@edge-runtime/vm@5.0.0)(@opentelemetry/api@1.9.0)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22(@pnpm/logger@1001.0.1)(@vercel/blob@1.0.2)(vite@7.2.4(@types/node@24.10.1)(jiti@2.6.1)(less@4.5.1)(lightningcss@1.30.2)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(yaml@2.8.1))(vue@3.5.26(typescript@5.9.3)))(@vitest/ui@4.0.16)(esbuild@0.25.12)(happy-dom@20.0.11)(jiti@2.6.1)(jsdom@27.2.0)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)':
+  '@voidzero-dev/vite-plus-darwin-arm64@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb':
+    optional: true
+
+  '@voidzero-dev/vite-plus-linux-arm64-gnu@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb':
+    optional: true
+
+  '@voidzero-dev/vite-plus-linux-x64-gnu@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb':
+    optional: true
+
+  '@voidzero-dev/vite-plus-test@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb(@arethetypeswrong/core@0.18.2)(@edge-runtime/vm@5.0.0)(@opentelemetry/api@1.9.0)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22(@pnpm/logger@1001.0.1)(@vercel/blob@1.0.2)(vite@7.2.4(@types/node@24.10.1)(jiti@2.6.1)(less@4.5.1)(lightningcss@1.30.2)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(yaml@2.8.1))(vue@3.5.26(typescript@5.9.3)))(@vitest/ui@4.0.16)(esbuild@0.25.12)(happy-dom@20.0.11)(jiti@2.6.1)(jsdom@27.2.0)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)':
     dependencies:
       '@edge-runtime/vm': 5.0.0
       '@opentelemetry/api': 1.9.0
       '@types/chai': 5.2.3
       '@types/node': 24.10.1
-      '@vitest/ui': 4.0.16(@voidzero-dev/vite-plus-test@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9)
-      '@voidzero-dev/vite-plus-core': 0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9(@arethetypeswrong/core@0.18.2)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22(@pnpm/logger@1001.0.1)(@vercel/blob@1.0.2)(vite@7.2.4(@types/node@24.10.1)(jiti@2.6.1)(less@4.5.1)(lightningcss@1.30.2)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(yaml@2.8.1))(vue@3.5.26(typescript@5.9.3)))(esbuild@0.25.12)(jiti@2.6.1)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)
+      '@vitest/ui': 4.0.16(@voidzero-dev/vite-plus-test@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb)
+      '@voidzero-dev/vite-plus-core': 0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb(@arethetypeswrong/core@0.18.2)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22(@pnpm/logger@1001.0.1)(@vercel/blob@1.0.2)(vite@7.2.4(@types/node@24.10.1)(jiti@2.6.1)(less@4.5.1)(lightningcss@1.30.2)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(yaml@2.8.1))(vue@3.5.26(typescript@5.9.3)))(esbuild@0.25.12)(jiti@2.6.1)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)
       es-module-lexer: 1.7.0
       happy-dom: 20.0.11
       jsdom: 27.2.0
       obug: 2.1.1
-      picomatch: 4.0.3
       pixelmatch: 7.1.0
       pngjs: 7.0.0
       sirv: 3.0.2
@@ -9216,19 +9248,18 @@ snapshots:
       - utf-8-validate
       - yaml
 
-  '@voidzero-dev/vite-plus-test@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9(@arethetypeswrong/core@0.18.2)(@edge-runtime/vm@5.0.0)(@opentelemetry/api@1.9.0)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22)(@vitest/ui@4.0.16)(esbuild@0.25.12)(happy-dom@20.0.11)(jiti@2.6.1)(jsdom@27.2.0)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)':
+  '@voidzero-dev/vite-plus-test@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb(@arethetypeswrong/core@0.18.2)(@edge-runtime/vm@5.0.0)(@opentelemetry/api@1.9.0)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22)(@vitest/ui@4.0.16)(esbuild@0.25.12)(happy-dom@20.0.11)(jiti@2.6.1)(jsdom@27.2.0)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)':
     dependencies:
       '@edge-runtime/vm': 5.0.0
       '@opentelemetry/api': 1.9.0
       '@types/chai': 5.2.3
       '@types/node': 24.10.1
-      '@vitest/ui': 4.0.16(@voidzero-dev/vite-plus-test@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9)
-      '@voidzero-dev/vite-plus-core': 0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9(@arethetypeswrong/core@0.18.2)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22)(esbuild@0.25.12)(jiti@2.6.1)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)
+      '@vitest/ui': 4.0.16(@voidzero-dev/vite-plus-test@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb)
+      '@voidzero-dev/vite-plus-core': 0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb(@arethetypeswrong/core@0.18.2)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22)(esbuild@0.25.12)(jiti@2.6.1)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)
       es-module-lexer: 1.7.0
       happy-dom: 20.0.11
       jsdom: 27.2.0
       obug: 2.1.1
-      picomatch: 4.0.3
       pixelmatch: 7.1.0
       pngjs: 7.0.0
       sirv: 3.0.2
@@ -9257,14 +9288,23 @@ snapshots:
       - utf-8-validate
       - yaml
 
-  '@voidzero-dev/vite-plus@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9(@arethetypeswrong/core@0.18.2)(@edge-runtime/vm@5.0.0)(@opentelemetry/api@1.9.0)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22(@pnpm/logger@1001.0.1)(@vercel/blob@1.0.2)(vite@7.2.4(@types/node@24.10.1)(jiti@2.6.1)(less@4.5.1)(lightningcss@1.30.2)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(yaml@2.8.1))(vue@3.5.26(typescript@5.9.3)))(@vitest/ui@4.0.16)(esbuild@0.25.12)(happy-dom@20.0.11)(jiti@2.6.1)(jsdom@27.2.0)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)':
+  '@voidzero-dev/vite-plus-win32-x64-msvc@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb':
+    optional: true
+
+  '@voidzero-dev/vite-plus@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb(@arethetypeswrong/core@0.18.2)(@edge-runtime/vm@5.0.0)(@opentelemetry/api@1.9.0)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22(@pnpm/logger@1001.0.1)(@vercel/blob@1.0.2)(vite@7.2.4(@types/node@24.10.1)(jiti@2.6.1)(less@4.5.1)(lightningcss@1.30.2)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(yaml@2.8.1))(vue@3.5.26(typescript@5.9.3)))(@vitest/ui@4.0.16)(esbuild@0.25.12)(happy-dom@20.0.11)(jiti@2.6.1)(jsdom@27.2.0)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)':
     dependencies:
-      '@voidzero-dev/vite-plus-core': 0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9(@arethetypeswrong/core@0.18.2)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22(@pnpm/logger@1001.0.1)(@vercel/blob@1.0.2)(vite@7.2.4(@types/node@24.10.1)(jiti@2.6.1)(less@4.5.1)(lightningcss@1.30.2)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(yaml@2.8.1))(vue@3.5.26(typescript@5.9.3)))(esbuild@0.25.12)(jiti@2.6.1)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)
-      '@voidzero-dev/vite-plus-test': 0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9(@arethetypeswrong/core@0.18.2)(@edge-runtime/vm@5.0.0)(@opentelemetry/api@1.9.0)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22(@pnpm/logger@1001.0.1)(@vercel/blob@1.0.2)(vite@7.2.4(@types/node@24.10.1)(jiti@2.6.1)(less@4.5.1)(lightningcss@1.30.2)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(yaml@2.8.1))(vue@3.5.26(typescript@5.9.3)))(@vitest/ui@4.0.16)(esbuild@0.25.12)(happy-dom@20.0.11)(jiti@2.6.1)(jsdom@27.2.0)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)
+      '@oxc-project/types': 0.108.0
+      '@voidzero-dev/vite-plus-core': 0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb(@arethetypeswrong/core@0.18.2)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22(@pnpm/logger@1001.0.1)(@vercel/blob@1.0.2)(vite@7.2.4(@types/node@24.10.1)(jiti@2.6.1)(less@4.5.1)(lightningcss@1.30.2)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(yaml@2.8.1))(vue@3.5.26(typescript@5.9.3)))(esbuild@0.25.12)(jiti@2.6.1)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)
+      '@voidzero-dev/vite-plus-test': 0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb(@arethetypeswrong/core@0.18.2)(@edge-runtime/vm@5.0.0)(@opentelemetry/api@1.9.0)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22(@pnpm/logger@1001.0.1)(@vercel/blob@1.0.2)(vite@7.2.4(@types/node@24.10.1)(jiti@2.6.1)(less@4.5.1)(lightningcss@1.30.2)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(yaml@2.8.1))(vue@3.5.26(typescript@5.9.3)))(@vitest/ui@4.0.16)(esbuild@0.25.12)(happy-dom@20.0.11)(jiti@2.6.1)(jsdom@27.2.0)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)
       cac: 6.7.14
       oxfmt: 0.16.0
       oxlint: 1.38.0(oxlint-tsgolint@0.8.6)
       oxlint-tsgolint: 0.8.6
+    optionalDependencies:
+      '@voidzero-dev/vite-plus-darwin-arm64': 0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb
+      '@voidzero-dev/vite-plus-linux-arm64-gnu': 0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb
+      '@voidzero-dev/vite-plus-linux-x64-gnu': 0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb
+      '@voidzero-dev/vite-plus-win32-x64-msvc': 0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb
     transitivePeerDependencies:
       - '@arethetypeswrong/core'
       - '@edge-runtime/vm'
@@ -9291,14 +9331,20 @@ snapshots:
       - utf-8-validate
       - yaml
 
-  '@voidzero-dev/vite-plus@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9(@arethetypeswrong/core@0.18.2)(@edge-runtime/vm@5.0.0)(@opentelemetry/api@1.9.0)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22)(@vitest/ui@4.0.16)(esbuild@0.25.12)(happy-dom@20.0.11)(jiti@2.6.1)(jsdom@27.2.0)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)':
+  '@voidzero-dev/vite-plus@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb(@arethetypeswrong/core@0.18.2)(@edge-runtime/vm@5.0.0)(@opentelemetry/api@1.9.0)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22)(@vitest/ui@4.0.16)(esbuild@0.25.12)(happy-dom@20.0.11)(jiti@2.6.1)(jsdom@27.2.0)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)':
     dependencies:
-      '@voidzero-dev/vite-plus-core': 0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9(@arethetypeswrong/core@0.18.2)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22)(esbuild@0.25.12)(jiti@2.6.1)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)
-      '@voidzero-dev/vite-plus-test': 0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9(@arethetypeswrong/core@0.18.2)(@edge-runtime/vm@5.0.0)(@opentelemetry/api@1.9.0)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22)(@vitest/ui@4.0.16)(esbuild@0.25.12)(happy-dom@20.0.11)(jiti@2.6.1)(jsdom@27.2.0)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)
+      '@oxc-project/types': 0.108.0
+      '@voidzero-dev/vite-plus-core': 0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb(@arethetypeswrong/core@0.18.2)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22)(esbuild@0.25.12)(jiti@2.6.1)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)
+      '@voidzero-dev/vite-plus-test': 0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb(@arethetypeswrong/core@0.18.2)(@edge-runtime/vm@5.0.0)(@opentelemetry/api@1.9.0)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22)(@vitest/ui@4.0.16)(esbuild@0.25.12)(happy-dom@20.0.11)(jiti@2.6.1)(jsdom@27.2.0)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)
       cac: 6.7.14
       oxfmt: 0.16.0
       oxlint: 1.38.0(oxlint-tsgolint@0.8.6)
       oxlint-tsgolint: 0.8.6
+    optionalDependencies:
+      '@voidzero-dev/vite-plus-darwin-arm64': 0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb
+      '@voidzero-dev/vite-plus-linux-arm64-gnu': 0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb
+      '@voidzero-dev/vite-plus-linux-x64-gnu': 0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb
+      '@voidzero-dev/vite-plus-win32-x64-msvc': 0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb
     transitivePeerDependencies:
       - '@arethetypeswrong/core'
       - '@edge-runtime/vm'
@@ -13972,11 +14018,11 @@ snapshots:
     transitivePeerDependencies:
       - rollup
 
-  vite-plugin-node-polyfills@0.24.0(@voidzero-dev/vite-plus-core@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9)(rollup@4.53.3):
+  vite-plugin-node-polyfills@0.24.0(@voidzero-dev/vite-plus-core@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb)(rollup@4.53.3):
     dependencies:
       '@rollup/plugin-inject': 5.0.5(rollup@4.53.3)
       node-stdlib-browser: 1.3.1
-      vite: '@voidzero-dev/vite-plus-core@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9(@arethetypeswrong/core@0.18.2)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22)(esbuild@0.25.12)(jiti@2.6.1)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)'
+      vite: '@voidzero-dev/vite-plus-core@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb(@arethetypeswrong/core@0.18.2)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22)(esbuild@0.25.12)(jiti@2.6.1)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)'
     transitivePeerDependencies:
       - rollup
 
@@ -13988,21 +14034,21 @@ snapshots:
     transitivePeerDependencies:
       - rollup
 
-  vite-plugin-static-copy@3.1.4(@voidzero-dev/vite-plus-core@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9):
+  vite-plugin-static-copy@3.1.4(@voidzero-dev/vite-plus-core@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb):
     dependencies:
       chokidar: 3.6.0
       p-map: 7.0.4
       picocolors: 1.1.1
       tinyglobby: 0.2.15
-      vite: '@voidzero-dev/vite-plus-core@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9(@arethetypeswrong/core@0.18.2)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22)(esbuild@0.25.12)(jiti@2.6.1)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)'
+      vite: '@voidzero-dev/vite-plus-core@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb(@arethetypeswrong/core@0.18.2)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22)(esbuild@0.25.12)(jiti@2.6.1)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)'
 
-  vite-tsconfig-paths@5.1.4(@voidzero-dev/vite-plus-core@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9)(typescript@5.9.3):
+  vite-tsconfig-paths@5.1.4(@voidzero-dev/vite-plus-core@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb)(typescript@5.9.3):
     dependencies:
       debug: 4.4.3
       globrex: 0.1.2
       tsconfck: 3.1.6(typescript@5.9.3)
     optionalDependencies:
-      vite: '@voidzero-dev/vite-plus-core@0.0.0-a73604cdcc1b0fa818e510c94056b8f74aca0ff9(@arethetypeswrong/core@0.18.2)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22)(esbuild@0.25.12)(jiti@2.6.1)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)'
+      vite: '@voidzero-dev/vite-plus-core@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb(@arethetypeswrong/core@0.18.2)(@types/node@24.10.1)(@vitejs/devtools@0.0.0-alpha.22)(esbuild@0.25.12)(jiti@2.6.1)(less@4.5.1)(publint@0.3.16)(sass-embedded@1.97.2)(sass@1.97.2)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.44.1)(tsx@4.19.2)(typescript@5.9.3)(unplugin-lightningcss@0.4.4)(unplugin-unused@0.5.6)(yaml@2.8.1)'
     transitivePeerDependencies:
       - supports-color
       - typescript
