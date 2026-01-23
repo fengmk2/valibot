@@ -1,4 +1,4 @@
-import { describe, expectTypeOf, test } from 'vitest';
+import { describe, expectTypeOf, test } from 'vite-plus/test';
 import type { InferInput, InferIssue, InferOutput } from '../../types/index.ts';
 import { ipv4, type Ipv4Action, type Ipv4Issue } from './ipv4.ts';
 

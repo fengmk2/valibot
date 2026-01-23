@@ -1,4 +1,4 @@
-import { describe, expectTypeOf, test } from 'vitest';
+import { describe, expectTypeOf, test } from 'vite-plus/test';
 import { boolean, number, string, tupleWithRest } from '../../schemas/index.ts';
 import type { InferInput, InferIssue, InferOutput } from '../../types/index.ts';
 import { args, type ArgsAction } from './args.ts';

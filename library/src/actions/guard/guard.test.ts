@@ -1,4 +1,4 @@
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from 'vite-plus/test';
 import type { FailureDataset } from '../../types/dataset.ts';
 import type { GuardAction, GuardIssue } from './guard.ts';
 import { guard } from './guard.ts';

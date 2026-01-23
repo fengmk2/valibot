@@ -1,4 +1,4 @@
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from 'vite-plus/test';
 import { description, type DescriptionAction } from './description.ts';
 
 describe('description', () => {

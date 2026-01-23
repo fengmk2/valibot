@@ -1,4 +1,4 @@
-import { describe, expectTypeOf, test } from 'vitest';
+import { describe, expectTypeOf, test } from 'vite-plus/test';
 import { check, type CheckIssue } from '../../actions/index.ts';
 import type {
   BaseValidation,

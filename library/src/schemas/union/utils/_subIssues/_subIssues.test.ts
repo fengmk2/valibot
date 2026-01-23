@@ -1,4 +1,4 @@
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from 'vite-plus/test';
 import type { EmailIssue, UrlIssue } from '../../../../actions/index.ts';
 import type { PartialDataset } from '../../../../types/index.ts';
 import { _subIssues } from './_subIssues.ts';

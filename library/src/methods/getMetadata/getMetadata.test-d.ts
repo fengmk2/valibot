@@ -1,4 +1,4 @@
-import { describe, expectTypeOf, test } from 'vitest';
+import { describe, expectTypeOf, test } from 'vite-plus/test';
 import { email, metadata, startsWith } from '../../actions/index.ts';
 import { string } from '../../schemas/index.ts';
 import type { GenericSchema } from '../../types/schema.ts';

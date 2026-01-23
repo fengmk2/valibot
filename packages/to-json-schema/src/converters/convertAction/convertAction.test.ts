@@ -1,5 +1,5 @@
 import * as v from 'valibot';
-import { describe, expect, test, vi } from 'vitest';
+import { describe, expect, test, vi } from 'vite-plus/test';
 import { convertAction } from './convertAction.ts';
 
 console.warn = vi.fn();

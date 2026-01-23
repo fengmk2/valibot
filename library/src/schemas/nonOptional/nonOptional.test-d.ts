@@ -1,4 +1,4 @@
-import { describe, expectTypeOf, test } from 'vitest';
+import { describe, expectTypeOf, test } from 'vite-plus/test';
 import type { InferInput, InferIssue, InferOutput } from '../../types/index.ts';
 import type { NullIssue, NullSchema } from '../null/index.ts';
 import { nullish, type NullishSchema } from '../nullish/index.ts';

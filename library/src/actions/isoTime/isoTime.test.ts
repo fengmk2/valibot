@@ -1,4 +1,4 @@
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from 'vite-plus/test';
 import { ISO_TIME_REGEX } from '../../regex.ts';
 import type { StringIssue } from '../../schemas/index.ts';
 import { expectActionIssue } from '../../vitest/expectActionIssue.ts';

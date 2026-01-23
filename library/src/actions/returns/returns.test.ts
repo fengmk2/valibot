@@ -1,4 +1,4 @@
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from 'vite-plus/test';
 import { number } from '../../schemas/index.ts';
 import { returns, type ReturnsAction } from './returns.ts';
 

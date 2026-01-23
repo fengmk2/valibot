@@ -1,4 +1,4 @@
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from 'vite-plus/test';
 import type { MinLengthIssue, UrlIssue } from '../../actions/index.ts';
 import { ValiError } from './ValiError.ts';
 

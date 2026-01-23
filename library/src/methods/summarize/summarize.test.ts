@@ -1,4 +1,4 @@
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from 'vite-plus/test';
 import type { IncludesIssue, MinLengthIssue } from '../../actions/index.ts';
 import type { NumberIssue, StringIssue } from '../../schemas/index.ts';
 import type { ArrayPathItem, ObjectPathItem } from '../../types/issue.ts';
