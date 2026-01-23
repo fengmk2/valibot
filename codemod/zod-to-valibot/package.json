@@ -29,9 +29,9 @@
     "access": "public"
   },
   "scripts": {
-    "build": "tsdown",
+    "build": "vite lib",
     "codemod": "jscodeshift",
-    "test": "vitest"
+    "test": "vite test"
   },
   "dependencies": {
     "jscodeshift": "^17.3.0"
@@ -39,11 +39,11 @@
   "devDependencies": {
     "@types/jscodeshift": "17.3.0",
     "@types/node": "^24.10.1",
-    "tsdown": "^0.16.6",
     "typescript": "^5.9.3",
     "valibot": "workspace:*",
     "vite-plugin-node-polyfills": "^0.24.0",
-    "vitest": "^4.0.13",
-    "zod": "^3.25.76"
+    "vitest": "catalog:",
+    "zod": "^3.25.76",
+    "vite-plus": "catalog:"
   }
 }

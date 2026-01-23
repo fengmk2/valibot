@@ -1,4 +1,4 @@
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from 'vite-plus/test';
 import { description, title } from '../../actions/index.ts';
 import { string } from '../../schemas/index.ts';
 import { pipe } from '../pipe/index.ts';

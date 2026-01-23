@@ -1,4 +1,4 @@
-import { expect } from 'vitest';
+import { expect } from 'vite-plus/test';
 import type { BaseIssue, BaseValidation, InferInput } from '../types/index.ts';
 
 /**

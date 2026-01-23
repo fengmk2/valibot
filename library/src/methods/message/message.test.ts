@@ -1,4 +1,4 @@
-import { describe, expect, test, vi } from 'vitest';
+import { describe, expect, test, vi } from 'vite-plus/test';
 import { objectAsync, string } from '../../schemas/index.ts';
 import type { BaseIssue, Config } from '../../types/index.ts';
 import { message } from './message.ts';

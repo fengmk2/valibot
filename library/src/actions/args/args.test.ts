@@ -1,4 +1,4 @@
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from 'vite-plus/test';
 import { boolean, number, string, tupleWithRest } from '../../schemas/index.ts';
 import { args, type ArgsAction } from './args.ts';
 

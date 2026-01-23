@@ -18,7 +18,7 @@
     "build.types": "tsc --incremental --noEmit",
     "contributors": "tsm ./scripts/contributors.ts",
     "deploy": "vercel deploy",
-    "dev": "vite --mode ssr",
+    "dev": "vite dev --mode ssr",
     "dev.debug": "node --inspect-brk ./node_modules/vite/bin/vite.js --mode ssr --force",
     "format": "prettier --write .",
     "format.check": "prettier --check .",
@@ -27,7 +27,7 @@
     "sitemap": "tsm ./scripts/sitemap.ts",
     "llms": "tsm ./scripts/llms.ts",
     "sources": "tsm ./scripts/sources.ts",
-    "start": "vite --open --mode ssr",
+    "start": "vite dev --open --mode ssr",
     "qwik": "qwik"
   },
   "devDependencies": {
@@ -53,11 +53,12 @@
     "typescript-eslint": "^8.47.0",
     "undici": "^7.16.0",
     "vercel": "^48.10.10",
-    "vite": "^7.2.4",
+    "vite": "catalog:",
     "vite-imagetools": "^9.0.0",
     "vite-plugin-node-polyfills": "^0.24.0",
     "vite-plugin-static-copy": "^3.1.4",
-    "vite-tsconfig-paths": "^5.1.4"
+    "vite-tsconfig-paths": "^5.1.4",
+    "vite-plus": "catalog:"
   },
   "dependencies": {
     "@valibot/zod-to-valibot": "workspace:*",

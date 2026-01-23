@@ -1,4 +1,4 @@
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from 'vite-plus/test';
 import { expectNoSchemaIssue, expectSchemaIssue } from '../../vitest/index.ts';
 import { boolean, type BooleanIssue, type BooleanSchema } from './boolean.ts';
 

@@ -1,4 +1,4 @@
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from 'vite-plus/test';
 import { _isIsbn13 } from './_isIsbn13.ts';
 
 describe('_isIsbn13', () => {

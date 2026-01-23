@@ -1,4 +1,4 @@
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from 'vite-plus/test';
 import { toLowerCase, type ToLowerCaseAction } from './toLowerCase.ts';
 
 describe('toLowerCase', () => {
