@@ -1,7 +1,7 @@
 import jscodeshift, { type Transform } from 'jscodeshift';
 import fs from 'node:fs';
 import path from 'node:path';
-import { expect, test } from 'vitest';
+import { expect, test } from '@voidzero-dev/vite-plus/test';
 
 const ALLOWED_EXTENSIONS = ['.ts', '.tsx'];
 export type ElementFrom<T extends unknown[]> = T[number];

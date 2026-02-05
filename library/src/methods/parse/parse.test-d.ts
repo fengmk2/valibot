@@ -1,4 +1,4 @@
-import { describe, expectTypeOf, test } from 'vitest';
+import { describe, expectTypeOf, test } from '@voidzero-dev/vite-plus/test';
 import { transform } from '../../actions/index.ts';
 import { object, string } from '../../schemas/index.ts';
 import { pipe } from '../pipe/pipe.ts';

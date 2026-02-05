@@ -1,4 +1,4 @@
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from '@voidzero-dev/vite-plus/test';
 import type { StringIssue } from '../../schemas/index.ts';
 import { ValiError } from '../../utils/index.ts';
 import { isValiError } from './isValiError.ts';

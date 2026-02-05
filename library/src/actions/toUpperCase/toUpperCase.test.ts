@@ -1,4 +1,4 @@
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from '@voidzero-dev/vite-plus/test';
 import { toUpperCase, type ToUpperCaseAction } from './toUpperCase.ts';
 
 describe('toUpperCase', () => {

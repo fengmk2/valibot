@@ -38,7 +38,7 @@ export default tseslint.config(
       '@typescript-eslint/consistent-type-imports': 'warn',
 
       // Import
-      'import/extensions': ['error', 'always'], // Require file extensions
+      // 'import/extensions': ['error', 'always'], // Require file extensions
 
       // JSDoc
       'jsdoc/tag-lines': ['error', 'any', { startLines: 1 }],

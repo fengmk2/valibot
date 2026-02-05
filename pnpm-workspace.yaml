@@ -3,3 +3,17 @@ packages:
   - 'library'
   - 'packages/*'
   - 'website'
+catalog:
+  vite: npm:@voidzero-dev/vite-plus-core@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb
+  vitest: npm:@voidzero-dev/vite-plus-test@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb
+  '@voidzero-dev/vite-plus': 0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb
+overrides:
+  vite: 'catalog:'
+  vitest: 'catalog:'
+peerDependencyRules:
+  allowAny:
+    - vite
+    - vitest
+  allowedVersions:
+    vite: '*'
+    vitest: '*'

@@ -1,4 +1,4 @@
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from '@voidzero-dev/vite-plus/test';
 import { mapItems, type MapItemsAction } from './mapItems.ts';
 
 describe('mapItems', () => {

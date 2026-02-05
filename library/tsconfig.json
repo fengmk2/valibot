@@ -6,7 +6,8 @@
     "isolatedDeclarations": true,
     "lib": ["ESNext", "DOM"],
     "module": "ESNext",
-    "moduleResolution": "node",
+    // Vite+ don't support moduleResolution node
+    "moduleResolution": "bundler",
     "noEmit": true,
     "skipLibCheck": true,
     "strict": true,

@@ -1,4 +1,4 @@
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from '@voidzero-dev/vite-plus/test';
 import { number, object, string } from '../../schemas/index.ts';
 import { isOfType } from './isOfType.ts';
 

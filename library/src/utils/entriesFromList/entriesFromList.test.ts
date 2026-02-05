@@ -1,4 +1,4 @@
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from '@voidzero-dev/vite-plus/test';
 import { arrayAsync, string } from '../../schemas/index.ts';
 import { entriesFromList } from './entriesFromList.ts';
 

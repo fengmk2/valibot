@@ -1,5 +1,5 @@
+import { describe, expect, test } from '@voidzero-dev/vite-plus/test';
 import * as v from 'valibot';
-import { describe, expect, test } from 'vitest';
 import { addGlobalDefs, getGlobalDefs } from './globalDefs.ts';
 
 describe('globalDefs', () => {

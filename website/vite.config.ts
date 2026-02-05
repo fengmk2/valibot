@@ -2,8 +2,8 @@ import { qwikCity } from '@builder.io/qwik-city/vite';
 import { qwikVite } from '@builder.io/qwik/optimizer';
 import rehypePrism from '@mapbox/rehype-prism';
 import tailwindcss from '@tailwindcss/vite';
+import { defineConfig } from '@voidzero-dev/vite-plus';
 import rehypeExternalLinks from 'rehype-external-links';
-import { defineConfig } from 'vite';
 import { nodePolyfills } from 'vite-plugin-node-polyfills';
 import tsconfigPaths from 'vite-tsconfig-paths';
 

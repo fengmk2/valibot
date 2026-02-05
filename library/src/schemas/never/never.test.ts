@@ -1,4 +1,4 @@
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from '@voidzero-dev/vite-plus/test';
 import { expectSchemaIssue } from '../../vitest/index.ts';
 import { never, type NeverIssue, type NeverSchema } from './never.ts';
 

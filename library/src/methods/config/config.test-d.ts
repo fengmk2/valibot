@@ -1,4 +1,4 @@
-import { describe, expectTypeOf, test } from 'vitest';
+import { describe, expectTypeOf, test } from '@voidzero-dev/vite-plus/test';
 import { objectAsync, string } from '../../schemas/index.ts';
 import { config } from './config.ts';
 
